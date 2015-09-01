@@ -1,0 +1,19 @@
+todo:
+
+Sequence klasse maken
+
+knoppen moeten aan pointers gelinkt worden.
+zo kunnen ze opnieuw worden toegewezen aan andere functies
+
+sequence playing should be done with timed interrupts
+now the menus block (and sometimes break) the timing
+
+
+--20150607--
+
+render update functies worden nu als pointer aangeroepen.
+misschien moet de renderer ook een klasse worden?
+of eeneigen bestand krijgen.
+
+Drumkit now handles the sample playing
+beware of legacy code in box.ino not using the new class
