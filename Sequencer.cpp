@@ -1,6 +1,5 @@
 #include "Sequencer.h"
-/////////////////////////////////////////////////////////////////////////////////////////////////
-IntervalTimer seqTimer;
+volatile int renderenable;
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //initialize.
 //set the bpm, which also starts the sequencer
@@ -9,16 +8,9 @@ void SequencerClass::init()
 	setbpm(bpm);
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////
-//a small wrapper is needed because we can't pass class member functions as pointers
-//so we pass a function that calls the sequence play member function
-void sequencePlay()
-{
-	AudioNoInterrupts();
-	Sequencer.play();
-	AudioInterrupts();
-}
 void SequencerClass::setbpm(uint16_t newbpm)
 {
+	bpm = newbpm;
 	if(newbpm == 0)
 	{
 		seqTimer.end();
@@ -42,7 +34,7 @@ void SequencerClass::renderFull()
 	const int BOXHEIGHT = 14;
 	
 	int EndY = tft.height()-60;
-	Track[0].render(&tft, currentStep);
+	Track[0].render(&tft, currentTick);
 	void drawbpm();
 
 	//selector
@@ -61,41 +53,45 @@ void SequencerClass::renderFull()
 		}
 	}
 }
+void UISequenceRenderer()
+{
+	Sequencer.renderFull();
+}
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //play sequence
 void SequencerClass::play()
 {
-	//at the moment only 6 instruments supported
-	for(int r = 0; r < 6; r++)
+	for(int r = 0; r < 12; r++)
 	{
 		//get the entry from the track
-		if(currentTrack->data[currentStep][r] > 0)
+		if(currentTrack->data[currentTick][r] > 0)
 		{
-			Serial.println("Playnote");
-			//play a sample
 			Drumkit.playSample(r);
 		}
 	}
-	currentStep+=1;
+	currentTick+=1;
 	//overflow:
 	//reached the end of the track/measure.
 	//if a next track is selected, play it.
 	//reset the step to 0 
-	if(currentStep > 15) 
+	if(currentTick > currentTrack->measure_ticks-1) 
 	{
 		if(nextTrack != NULL)
 		{
 			currentTrack = nextTrack;
 		}
-		currentStep = 0;
+		currentTick = 0;
 	}
+	renderenable = 1;
 }
-
-
-SequencerClass Sequencer;
-
-void UISequenceRenderer()
+//a small wrapper is needed because we can't pass class member functions as pointers
+//so we pass a function that calls the sequence play member function
+void sequencePlay()
 {
-	return;
-	//Sequencer.renderFull();
+	AudioNoInterrupts();
+	Sequencer.play();
+	AudioInterrupts();
 }
+/////////////////////////////////////////////////////////////////////////////////////////////////
+SequencerClass Sequencer;
+IntervalTimer seqTimer;

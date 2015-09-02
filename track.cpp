@@ -39,8 +39,8 @@ void TrackClass::loadData(char* _filename)
 		columns = inFile.read();//sequence length
 		Serial.print("columns: ");
 		Serial.println(columns);
-		numerator = inFile.read();//meter 1
-		denumerator = inFile.read();//meter 2
+		signature_upper = inFile.read();//meter 1
+		signature_lower = inFile.read();//meter 2
 		Serial.println("contents");
 		for(int r = 0; r < 12; r++)
 		{
@@ -67,8 +67,8 @@ void TrackClass::saveData(char* _filename)
 	outFile.write(fileversion);//file version
 	outFile.write(instruments);//instruments
 	outFile.write(columns);//sequence length
-	outFile.write(numerator);//meter 1
-	outFile.write(denumerator);//meter 2
+	outFile.write(signature_upper);//meter 1
+	outFile.write(signature_lower);//meter 2
 	Serial.println("contents");
 	for(int r = 0; r < 12; r++)
 	{
@@ -117,7 +117,7 @@ void TrackClass::render(ILI9341_t3* tft, int currentStep)
 			if(data[c][r] == 0)
 			{
 				uint16_t* color = &colorSeqBG;
-				if(c % numerator == 0)
+				if(c % signature_upper == 0)
 				{
 					color = &colorSeqBAR;
 				}

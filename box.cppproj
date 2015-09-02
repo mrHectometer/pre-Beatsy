@@ -58,7 +58,7 @@
       <Value>ARDUINO_MAIN</Value>
       <Value>__AVR__</Value>
       <Value>__MK20DX256__</Value>
-      <Value>TEENSYDUINO=124</Value>
+      <Value>TEENSYDUINO=125</Value>
       <Value>F_CPU=96000000</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
       <Value>USB_SERIAL</Value>
@@ -67,31 +67,31 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr//avr/include/avr/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/avr/include/</Value>
       <Value>C:/Users/Roel/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries</Value>
-      <Value>C:/Programming/Arduino/libraries</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio</Value>
-      <Value>../../box</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash/utility</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio</Value>
+      <Value>../../Beatsy</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/cores/teensy3</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -109,7 +109,7 @@
       <Value>ARDUINO_MAIN</Value>
       <Value>__AVR__</Value>
       <Value>__MK20DX256__</Value>
-      <Value>TEENSYDUINO=124</Value>
+      <Value>TEENSYDUINO=125</Value>
       <Value>F_CPU=96000000</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
       <Value>USB_SERIAL</Value>
@@ -118,31 +118,31 @@
   </avrgcccpp.compiler.symbols.DefSymbols>
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr//avr/include/avr/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/avr/include/</Value>
       <Value>C:/Users/Roel/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries</Value>
-      <Value>C:/Programming/Arduino/libraries</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio</Value>
-      <Value>../../box</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash/utility</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio</Value>
+      <Value>../../Beatsy</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/cores/teensy3</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -153,7 +153,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>D:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;../../box;D:/Programming/Arduino/libraries;D:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Roel/Documents/Arduino/libraries;D:/Programming/Arduino/hardware/tools/avr/avr/include/;D:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;D:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Users/Roel/Documents/Arduino/libraries/UTouch;C:/Users/Roel/Documents/Arduino/libraries/UTouch/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;C:/Users/Roel/Documents/Arduino/libraries/Audio;C:/Users/Roel/Documents/Arduino/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;C:/Programming/Arduino/libraries;C:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Programming/Arduino/hardware/tools/avr/avr/include/;C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>D:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;../../box;D:/Programming/Arduino/libraries;D:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Roel/Documents/Arduino/libraries;D:/Programming/Arduino/hardware/tools/avr/avr/include/;D:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;D:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Users/Roel/Documents/Arduino/libraries/UTouch;C:/Users/Roel/Documents/Arduino/libraries/UTouch/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;C:/Users/Roel/Documents/Arduino/libraries/Audio;C:/Users/Roel/Documents/Arduino/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;C:/Programming/Arduino/libraries;C:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Programming/Arduino/hardware/tools/avr/avr/include/;C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/cores/teensy3;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD/utility;C:/Users/Roel/Documents/Arduino/libraries/SerialFlash;C:/Users/Roel/Documents/Arduino/libraries/SerialFlash/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire/utility;C:/Programming/arduino-1.6.5-r5/libraries;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries;C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/avr/include/;C:/Programming/arduino-1.6.5-r5/hardware/tools/avr//avr/include/avr/;C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/lib/gcc/avr/4.8.1/include;../../Beatsy;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.board.name>teensy31</arduino.board.name>
@@ -422,7 +422,7 @@ vmresolved.tools.path=C:\Programming
       <Value>ARDUINO_MAIN</Value>
       <Value>__AVR__</Value>
       <Value>__MK20DX256__</Value>
-      <Value>TEENSYDUINO=124</Value>
+      <Value>TEENSYDUINO=125</Value>
       <Value>F_CPU=96000000</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
       <Value>USB_SERIAL</Value>
@@ -431,31 +431,31 @@ vmresolved.tools.path=C:\Programming
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr//avr/include/avr/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/avr/include/</Value>
       <Value>C:/Users/Roel/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries</Value>
-      <Value>C:/Programming/Arduino/libraries</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio</Value>
-      <Value>../../box</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash/utility</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio</Value>
+      <Value>../../Beatsy</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/cores/teensy3</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -473,7 +473,7 @@ vmresolved.tools.path=C:\Programming
       <Value>ARDUINO_MAIN</Value>
       <Value>__AVR__</Value>
       <Value>__MK20DX256__</Value>
-      <Value>TEENSYDUINO=124</Value>
+      <Value>TEENSYDUINO=125</Value>
       <Value>F_CPU=96000000</Value>
       <Value>ARDUINO_ARCH_AVR</Value>
       <Value>USB_SERIAL</Value>
@@ -482,31 +482,31 @@ vmresolved.tools.path=C:\Programming
   </avrgcccpp.compiler.symbols.DefSymbols>
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/</Value>
-      <Value>C:/Programming/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr//avr/include/avr/</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/avr/include/</Value>
       <Value>C:/Users/Roel/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries</Value>
-      <Value>C:/Programming/Arduino/libraries</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/SD</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio</Value>
-      <Value>../../box</Value>
-      <Value>C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/libraries</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash/utility</Value>
+      <Value>C:/Users/Roel/Documents/Arduino/libraries/SerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio/utility</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio</Value>
+      <Value>../../Beatsy</Value>
+      <Value>C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/cores/teensy3</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -517,7 +517,7 @@ vmresolved.tools.path=C:\Programming
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>D:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;../../box;D:/Programming/Arduino/libraries;D:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Roel/Documents/Arduino/libraries;D:/Programming/Arduino/hardware/tools/avr/avr/include/;D:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;D:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Users/Roel/Documents/Arduino/libraries/UTouch;C:/Users/Roel/Documents/Arduino/libraries/UTouch/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;C:/Users/Roel/Documents/Arduino/libraries/Audio;C:/Users/Roel/Documents/Arduino/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;C:/Programming/Arduino/libraries;C:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Programming/Arduino/hardware/tools/avr/avr/include/;C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>D:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;../../box;D:/Programming/Arduino/libraries;D:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Roel/Documents/Arduino/libraries;D:/Programming/Arduino/hardware/tools/avr/avr/include/;D:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;D:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;D:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash;C:/Users/Roel/Documents/Arduino/libraries/play_serialflash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD;D:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;D:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;D:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;D:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;D:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Users/Roel/Documents/Arduino/libraries/UTouch;C:/Users/Roel/Documents/Arduino/libraries/UTouch/utility;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;D:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/cores/teensy3;C:/Users/Roel/Documents/Arduino/libraries/Audio;C:/Users/Roel/Documents/Arduino/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce;C:/Programming/Arduino/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3;C:/Programming/Arduino/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD;C:/Programming/Arduino/hardware/teensy/avr/libraries/SD/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash;C:/Programming/Arduino/hardware/teensy/avr/libraries/SerialFlash/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI;C:/Programming/Arduino/hardware/teensy/avr/libraries/SPI/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire;C:/Programming/Arduino/hardware/teensy/avr/libraries/Wire/utility;C:/Programming/Arduino/libraries;C:/Programming/Arduino/hardware/teensy/avr/libraries;C:/Programming/Arduino/hardware/tools/avr/avr/include/;C:/Programming/Arduino/hardware/tools/avr//avr/include/avr/;C:/Programming/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio;C:/Programming/Arduino/hardware/teensy/avr/libraries/Audio/utility;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash;C:/Programming/Arduino/hardware/teensy/avr/libraries/play_serialflash/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/cores/teensy3;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Audio/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Bounce/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/ILI9341_t3/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/PlayRawFromSerialFlash/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SD/utility;C:/Users/Roel/Documents/Arduino/libraries/SerialFlash;C:/Users/Roel/Documents/Arduino/libraries/SerialFlash/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/SPI/utility;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries/Wire/utility;C:/Programming/arduino-1.6.5-r5/libraries;C:/Programming/arduino-1.6.5-r5/hardware/teensy/avr/libraries;C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/avr/include/;C:/Programming/arduino-1.6.5-r5/hardware/tools/avr//avr/include/avr/;C:/Programming/arduino-1.6.5-r5/hardware/tools/avr/lib/gcc/avr/4.8.1/include;../../Beatsy;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.board.name>teensy31</arduino.board.name>
@@ -803,6 +803,9 @@ vmresolved.tools.path=C:\Programming
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="UIrenderer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Visual Micro\.Beatsy.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Visual Micro\.box.vsarduino.h">

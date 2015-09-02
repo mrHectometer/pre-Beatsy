@@ -6,6 +6,7 @@
 #include "track.h"
 #include "arduino.h"
 
+extern volatile int renderenable;
 extern IntervalTimer seqTimer;
 
 class SequencerClass
@@ -13,17 +14,19 @@ class SequencerClass
  protected:
 	volatile TrackClass *currentTrack;
 	volatile TrackClass *nextTrack;
-	uint16_t bpm;
+	uint16_t bpm = 120;
 	int selector[2] = {0,0};
-	volatile int currentStep;
+	volatile int currentTick;
  public:
 	void init();
 	void setNextTrack(TrackClass* _Track)
 	{
+		_Track->set_measure_ticks();
 		nextTrack = _Track;
 	}
 	void setCurrentTrack(TrackClass* _Track)
 	{
+		_Track->set_measure_ticks();
 		currentTrack = _Track;
 	}
 	
@@ -36,7 +39,7 @@ class SequencerClass
 };
 extern SequencerClass Sequencer;
 void UISequenceRenderer();
-
+void sequencePlay();
 
 
 #endif

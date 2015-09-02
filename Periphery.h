@@ -10,8 +10,8 @@
 #define INPUT_H
 
 // For using with the Teensy Audio board
-#define TFT_DC 8
-#define TFT_CS 9
+#define TFT_DC 21
+#define TFT_CS 20
 #define TFT_RST 255 // Set to 255 when reset is not used
 #define TFT_MOSI 7
 #define TFT_SCLK 14

@@ -21,7 +21,7 @@ int16_t kit[12] =
 };*/
 void DrumkitClass::init()
 {
-	setSample(0,49);
+	setSample(0,56);
 	setSample(1,129);
 	setSample(2,29);
 	setSample(3,29);
@@ -57,18 +57,18 @@ void DrumkitClass::renderOverview()
 		if(sampleIndex[s][0] >=0)
 		{
 			
-			tft.setCursor(columnX+6,EndY - row*rowHeight+6);
-			tft.print(SampleName[sampleIndex[s][0]]);
+			//tft.setCursor(columnX+6,EndY - row*rowHeight+6);
+			//tft.print(SampleName[sampleIndex[s][0]]);
 		}
 		//check if the samples are playing
 		if(samplePlayer[s]->isPlaying())
 		{
 			//tft.fillRect(columnX, EndY - row*rowHeight,  BUTTONWIDTH, BUTTONHEIGHT, ILI9341_CYAN);
-			tft.drawRect(columnX+BUTTONWIDTH+4, EndY - row*rowHeight,  10, BUTTONHEIGHT, ILI9341_CYAN);
+			//tft.drawRect(columnX+BUTTONWIDTH+4, EndY - row*rowHeight,  10, BUTTONHEIGHT, ILI9341_CYAN);
 		}
 		else
 		{
-			tft.drawRect(columnX+BUTTONWIDTH+4, EndY - row*rowHeight,  10, BUTTONHEIGHT, ILI9341_BLACK);
+			//tft.drawRect(columnX+BUTTONWIDTH+4, EndY - row*rowHeight,  10, BUTTONHEIGHT, ILI9341_BLACK);
 		}
 		row+=1;
 	}

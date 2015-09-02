@@ -13,7 +13,7 @@
 // Create an object to control the audio shield.
 AudioControlSGTL5000 audioShield;
 
-
+volatile int rendernow;
 void setup()
 {
 	pinMode(10,OUTPUT);
@@ -25,28 +25,30 @@ void setup()
 	AudioMemory(40);
 	// turn on the output
 	audioShield.enable();
-	audioShield.volume(0.4);
+	audioShield.volume(0.3);
 	connectionInit();
-	//init_tft();
+	init_tft();
 	init_SD();
 	
 	Drumkit.init();
 	
-	// Audio connections require memory to work.  For more
-	// detailed information, see the MemoryAndCpuUsage example
-	
-	
 	init_buttons();
 	
-	Track[0].setEntry(4, 2, 1);
+	//kick
 	Track[0].setEntry(0, 0, 1);
-	Track[0].setEntry(12, 2, 1);
+	Track[0].setEntry(5, 0, 1);
+	Track[0].setEntry(13, 0, 1);
+	//snare
 	Track[0].setEntry(8, 1, 1);
-	Track[0].setEntry(14, 1, 1);
+	//hats
+	for(int i = 0; i < 16; i+=2)
+	{
+		Track[0].setEntry(i, 2, 1);
+	}
 	Sequencer.init();
+	Sequencer.setbpm(150);
 	Sequencer.setCurrentTrack(&Track[0]);
 	UISetRenderer(&UISequenceRenderer);
-	
 }
 
 
@@ -67,8 +69,14 @@ void updateButtons()
 		}
 	}
 }
-int bpm = 100;
 void loop() 
 {
-		
+	//enable rendering only after a sequencer interrupt has occurred
+	//must be ready before next sequence interrupt starts
+//	if(renderenable)
+//	{
+//		UIrenderer();
+//		renderenable = 0;
+//	}
+	delayMicroseconds(1000);
 }
