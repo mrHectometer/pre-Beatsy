@@ -88,9 +88,9 @@ void SequencerClass::play()
 //so we pass a function that calls the sequence play member function
 void sequencePlay()
 {
-	AudioNoInterrupts();
+	//AudioNoInterrupts();
 	Sequencer.play();
-	AudioInterrupts();
+	//AudioInterrupts();
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////
 SequencerClass Sequencer;

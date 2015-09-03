@@ -61,4 +61,6 @@ void connectionInit()
 		mixL.gain(0, 0.3);
 		mixR.gain(0, 0.3);
 	}
+	mixL.gain(2, 0.2);
+	mixR.gain(2, 0.2);
 }

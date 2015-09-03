@@ -17,6 +17,8 @@ class SequencerClass
 	uint16_t bpm = 120;
 	int selector[2] = {0,0};
 	volatile int currentTick;
+	int renderRow = 0;
+
  public:
 	void init();
 	void setNextTrack(TrackClass* _Track)
@@ -34,6 +36,10 @@ class SequencerClass
 	void renderFull();
 	void play();
 	void setbpm(uint16_t newbpm);
+	int getbpm()
+	{
+		return bpm;
+	}
 	//void renderMinimal();
 	
 };
