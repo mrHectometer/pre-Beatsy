@@ -23,7 +23,6 @@
 extern "C" void __cxa_pure_virtual() {;}
 
 //
-void updateButtons();
 //
 
 #include "C:\Programming\arduino-1.6.5-r5\hardware\teensy\avr\cores\teensy3\arduino.h"

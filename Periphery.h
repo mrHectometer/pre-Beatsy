@@ -19,29 +19,28 @@
 
 ILI9341_t3 tft = ILI9341_t3(TFT_CS, TFT_DC, TFT_RST, TFT_MOSI, TFT_SCLK, TFT_MISO);
 
+
+Adafruit_Trellis matrix0 = Adafruit_Trellis();
+
+Adafruit_TrellisSet trellis =  Adafruit_TrellisSet(&matrix0);
+// or use the below to select 4, up to 8 can be passed in
+//Adafruit_TrellisSet trellis =  Adafruit_TrellisSet(&matrix0, &matrix1, &matrix2, &matrix3);
+
+// set to however many you're working with here, up to 8
+#define NUMTRELLIS 1
+
+#define numKeys (NUMTRELLIS * 16)
+
+// Connect Trellis Vin to 5V and Ground to ground.
+// Connect the INT wire to pin #A2 (can change later!)
+#define INTPIN 0
+
 //chip select for SD
 int SDCS = 10;
 //buttons
-const int button0 = 0;
-const int button1 = 1;
-const int button2 = 2;
-const int button3 = 3;
-const int button4 = 4;
-const int Volumeknob = A3;
-Bounce bUp = Bounce(button0, 3);
-Bounce bDown = Bounce(button1, 3);
-Bounce bLeft = Bounce(button2, 3);
-Bounce bRight = Bounce(button3, 3);
-Bounce bEnter = Bounce(button4, 3);
-
 void init_buttons()
 {
-	pinMode(button0,INPUT);
-	pinMode(button1,INPUT);
-	pinMode(button2,INPUT);
-	pinMode(button3,INPUT);
-	pinMode(button4,INPUT);
-	pinMode(Volumeknob,INPUT);
+//	pinMode(Volumeknob,INPUT);
 	analogReadResolution(8);
 }
 void init_SD()
@@ -61,5 +60,9 @@ void init_tft()
 	tft.setRotation(1);
 	tft.invertDisplay(0);
 	tft.fillScreen(ILI9341_BLACK);
+}
+void init_trellis()
+{
+	trellis.begin(0x70);  // only one
 }
 #endif /* INPUT_H */

@@ -14,10 +14,11 @@ class TrackClass
 	char filename[11];
 	uint8_t columns=16;
 	uint8_t instruments=12;
-	uint8_t signature_upper = 4;
-	uint8_t signature_lower = 4;
+	
  public:
 	uint16_t measure_ticks = 16;
+	uint8_t signature_upper = 4;
+	uint8_t signature_lower = 4;
 	uint8_t data[32][12];
 	//void renderFLoad();
 	//void renderFSave();

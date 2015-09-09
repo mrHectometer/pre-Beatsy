@@ -35,7 +35,6 @@ void SequencerClass::renderFull()
 	
 	int EndY = tft.height()-60;
 	Track[0].render(&tft, currentTick);
-	void drawbpm();
 
 	//selector
 	int c = selector[0];
