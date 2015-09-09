@@ -29,12 +29,18 @@ void SequencerClass::setbpm(uint16_t newbpm)
 //render full sequence
 void SequencerClass::renderFull()
 {
+	if(rerender)
+	{
+		tft.fillScreen(ILI9341_BLACK);
+		rerender = 0;
+	}
 	const int startX = 80;
 	const int BOXWIDTH = 12;
 	const int BOXHEIGHT = 14;
 	
 	int EndY = tft.height()-60;
-	Track[0].render(&tft, currentTick);
+	track_render(&tft,currentTrack, currentTick);
+	void drawbpm();
 
 	//selector
 	int c = selector[0];
@@ -75,9 +81,10 @@ void SequencerClass::play()
 	//reset the step to 0 
 	if(currentTick > currentTrack->measure_ticks-1) 
 	{
-		if(nextTrack != NULL)
+		if(nextTrack != NULL && nextTrack != currentTrack)
 		{
 			currentTrack = nextTrack;
+			rerender=1;//refresh whole track
 		}
 		currentTick = 0;
 	}

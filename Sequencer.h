@@ -6,6 +6,7 @@
 #include "track.h"
 #include "arduino.h"
 
+extern volatile int rerender;
 extern volatile int renderenable;
 extern IntervalTimer seqTimer;
 

@@ -19,7 +19,9 @@
 
 ILI9341_t3 tft = ILI9341_t3(TFT_CS, TFT_DC, TFT_RST, TFT_MOSI, TFT_SCLK, TFT_MISO);
 
-
+//chip select for SD
+int SDCS = 10;
+//buttons
 Adafruit_Trellis matrix0 = Adafruit_Trellis();
 
 Adafruit_TrellisSet trellis =  Adafruit_TrellisSet(&matrix0);
@@ -35,12 +37,11 @@ Adafruit_TrellisSet trellis =  Adafruit_TrellisSet(&matrix0);
 // Connect the INT wire to pin #A2 (can change later!)
 #define INTPIN 0
 
-//chip select for SD
-int SDCS = 10;
-//buttons
+
 void init_buttons()
 {
-//	pinMode(Volumeknob,INPUT);
+
+	//pinMode(Volumeknob,INPUT);
 	analogReadResolution(8);
 }
 void init_SD()

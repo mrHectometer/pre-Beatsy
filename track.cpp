@@ -102,7 +102,7 @@ int METER1 = 4;
 int METER2 = 4;
 int seqLength = 16;
 
-void TrackClass::render(ILI9341_t3* tft, int currentStep)
+void track_render(ILI9341_t3* tft,volatile TrackClass *t, int currentStep)
 {
 	const int BOXWIDTH = 12;
 	const int BOXHEIGHT = 14;
@@ -112,18 +112,18 @@ void TrackClass::render(ILI9341_t3* tft, int currentStep)
 	uint16_t colorSeqBAR = tft->color565(190,200,190);
 	for(int r = 0; r < 12; r++)
 	{
-		for(int c = 0; c < columns; c++)
+		for(int c = 0; c < t->columns; c++)
 		{
-			if(data[c][r] == 0)
+			if(t->data[c][r] == 0)
 			{
 				uint16_t* color = &colorSeqBG;
-				if(c % signature_upper == 0)
+				if(c % t->signature_upper == 0)
 				{
 					color = &colorSeqBAR;
 				}
 				tft->drawRect(startX+c*14+2, EndY - r*16+2, BOXWIDTH, BOXHEIGHT, *color);
 			}
-			if(data[c][r] > 0)
+			if(t->data[c][r] > 0)
 			{
 				tft->fillRect(startX+c*14+2, EndY - r*16+2,  BOXWIDTH, BOXHEIGHT, ILI9341_CYAN);
 			}

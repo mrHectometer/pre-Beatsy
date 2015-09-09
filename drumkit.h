@@ -372,6 +372,7 @@ extern AudioPlaySerialFlash    sound3;
 extern AudioPlaySerialFlash    sound4;
 extern AudioPlaySerialFlash    sound5;
 extern AudioPlaySerialFlash *samplePlayer[];
+extern AudioEffectEnvelope *env[];
 
 class DrumkitClass
 {
@@ -379,12 +380,13 @@ class DrumkitClass
 	//0: samples
 	//1: gain
 	//2: pan
-	int16_t sampleIndex[12][3];
+	uint16_t sampleIndex[12][3];
  public:
 	void init();
 	void setSample(uint16_t index, int16_t address)
 	{
 		sampleIndex[index][0] = address;
+		samplePlayer[index]->preparefast(Samples[address]);
 	}
 	int getSample(uint16_t index)
 	{
@@ -392,8 +394,6 @@ class DrumkitClass
 	}
 	void setGain(uint16_t index, int16_t gain)
 	{
-		if(gain < 0) gain = 0;
-		if(gain > 255) gain = 255;
 		sampleIndex[index][1] = gain;
 	}
 	void setPan(uint16_t index, int16_t pan)
@@ -408,9 +408,8 @@ class DrumkitClass
 	}
 	void playSample(int sample)
 	{
-		
-		samplePlayer[sample]->play(Samples[sampleIndex[sample][0]]);
-		
+		samplePlayer[sample]->playfast();
+		//env[sample]->sustain(65536);
 	}
 	void renderOverview();
 };

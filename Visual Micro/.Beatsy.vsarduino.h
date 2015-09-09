@@ -30,6 +30,7 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <Periphery.h>
 #include <Sequencer.cpp>
 #include <Sequencer.h>
+#include <TestTracks.h>
 #include <UIrenderer.h>
 #include <connections.h>
 #include <drumkit.cpp>

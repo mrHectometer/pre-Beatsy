@@ -12,13 +12,12 @@ class TrackClass
 {
  protected:
 	char filename[11];
+ public:
 	uint8_t columns=16;
 	uint8_t instruments=12;
-	
- public:
-	uint16_t measure_ticks = 16;
 	uint8_t signature_upper = 4;
 	uint8_t signature_lower = 4;
+	uint16_t measure_ticks = 16;
 	uint8_t data[32][12];
 	//void renderFLoad();
 	//void renderFSave();
@@ -51,7 +50,7 @@ class TrackClass
 		return measure_ticks;
 	}
 };
-
+void track_render(ILI9341_t3* tft,volatile TrackClass *t, int currentStep);
 extern TrackClass Track[16];
 
 #endif

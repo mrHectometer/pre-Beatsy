@@ -9,8 +9,8 @@ int16_t kit[12] =
 	49,
 	129,
 	29,
-	29,
-	163,
+	30,
+	98,
 	168,
 	-1,
 	-1,
@@ -24,9 +24,9 @@ void DrumkitClass::init()
 	setSample(0,56);
 	setSample(1,129);
 	setSample(2,29);
-	setSample(3,29);
+	setSample(3,30);
 	setSample(4,163);
-	setSample(5,168);
+	setSample(5,98);
 	setSample(6,170);
 	setSample(7,171);
 	setSample(8,171);

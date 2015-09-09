@@ -823,5 +823,10 @@ vmresolved.tools.path=C:\Programming
   <ItemGroup>
     <Folder Include="Visual Micro\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="TestTracks.h">
+      <SubType>compile</SubType>
+    </None>
+  </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>

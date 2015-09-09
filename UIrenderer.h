@@ -19,7 +19,7 @@ void UISetRenderer(void (*newUIRenderFunction)())
 	UIrenderer = newUIRenderFunction;
 }
 
-
+volatile int rerender = 0;
 
 
 #endif /* UIRENDERER_H_ */
