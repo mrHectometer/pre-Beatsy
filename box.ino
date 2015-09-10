@@ -2,11 +2,11 @@
 #include <ILI9341_t3.h>
 #include <Audio.h>
 #include <Wire.h>
-#include <SerialFlash.h>
+#include <SerialFlash.h>
 #include <SPI.h>
 #include <SD.h>
 #include <Bounce.h>
-#include <play_serialflash.h>#include "Sequencer.h"
+#include <play_serialflash.h>#include "effect_gain.h"#include "Sequencer.h"
 #include "track.h"
 #include "connections.h"
 #include "drumkit.h"#include "Periphery.h"

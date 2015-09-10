@@ -44,6 +44,7 @@ class SequencerClass
 	//void renderMinimal();
 	
 };
+
 extern SequencerClass Sequencer;
 void UISequenceRenderer();
 void sequencePlay();

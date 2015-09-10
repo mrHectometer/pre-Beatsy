@@ -21,7 +21,7 @@ int16_t kit[12] =
 };*/
 void DrumkitClass::init()
 {
-	setSample(0,56);
+	setSample(0,57);
 	setSample(1,129);
 	setSample(2,29);
 	setSample(3,30);

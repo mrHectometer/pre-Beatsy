@@ -35,6 +35,8 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <connections.h>
 #include <drumkit.cpp>
 #include <drumkit.h>
+#include <effect_gain.cpp>
+#include <effect_gain.h>
 #include <tft.c>
 #include <tft.h>
 #include <track.cpp>

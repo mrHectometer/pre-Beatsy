@@ -1,5 +1,7 @@
 #include "Sequencer.h"
+#include "effect_gain.h"
 volatile int renderenable;
+extern AudioEffectGain *sampleGain[12];
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //initialize.
 //set the bpm, which also starts the sequencer
@@ -72,6 +74,7 @@ void SequencerClass::play()
 		if(currentTrack->data[currentTick][r] > 0)
 		{
 			Drumkit.playSample(r);
+			sampleGain[r]->gain(currentTrack->data[currentTick][r]<<8);
 		}
 	}
 	currentTick+=1;

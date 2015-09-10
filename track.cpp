@@ -125,7 +125,10 @@ void track_render(ILI9341_t3* tft,volatile TrackClass *t, int currentStep)
 			}
 			if(t->data[c][r] > 0)
 			{
-				tft->fillRect(startX+c*14+2, EndY - r*16+2,  BOXWIDTH, BOXHEIGHT, ILI9341_CYAN);
+				int vel = t->data[c][r];//max 0XFF
+				int h = (255-vel) * BOXHEIGHT >> 8; 
+				tft->drawRect(startX+c*14+2, EndY - r*16+2, BOXWIDTH, BOXHEIGHT, ILI9341_CYAN);
+				tft->fillRect(startX+c*14+2, (EndY - r*16+2)+h,  BOXWIDTH, BOXHEIGHT-h, ILI9341_CYAN);
 			}
 			if(c == currentStep)
 			{
