@@ -27,12 +27,18 @@ extern "C" void __cxa_pure_virtual() {;}
 
 #include "C:\Programming\arduino-1.6.5-r5\hardware\teensy\avr\cores\teensy3\arduino.h"
 #include <box.ino>
+#include <Flasher.cpp>
+#include <Flasher.h>
+#include <Mux.cpp>
+#include <Mux.h>
 #include <Periphery.h>
 #include <Sequencer.cpp>
 #include <Sequencer.h>
 #include <TestTracks.h>
 #include <UIrenderer.h>
+#include <a4051Input.h>
 #include <connections.h>
+#include <debugUtils.h>
 #include <drumkit.cpp>
 #include <drumkit.h>
 #include <effect_gain.cpp>

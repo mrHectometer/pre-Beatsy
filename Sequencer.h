@@ -21,6 +21,7 @@ class SequencerClass
 	int renderRow = 0;
 
  public:
+	
 	void init();
 	void setNextTrack(TrackClass* _Track)
 	{
@@ -32,7 +33,6 @@ class SequencerClass
 		_Track->set_measure_ticks();
 		currentTrack = _Track;
 	}
-	
 	//void
 	void renderFull();
 	void play();

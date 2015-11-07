@@ -396,7 +396,7 @@ class DrumkitClass
 	{
 		sampleIndex[index][1] = gain;
 	}
-	void setPan(uint16_t index, int16_t pan)
+	void setPan(uint16_t index, int8_t pan)
 	{
 		if(pan < -127) pan = -127;
 		if(pan > 127) pan = 127;

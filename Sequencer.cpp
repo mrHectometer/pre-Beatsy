@@ -38,7 +38,7 @@ void SequencerClass::renderFull()
 	}
 	const int startX = 80;
 	const int BOXWIDTH = 12;
-	const int BOXHEIGHT = 14;
+	const int BOXHEIGHT = 12;
 	
 	int EndY = tft.height()-60;
 	track_render(&tft,currentTrack, currentTick);
@@ -47,7 +47,7 @@ void SequencerClass::renderFull()
 	//selector
 	int c = selector[0];
 	int r = selector[1];
-	tft.drawRect(startX+c*14+2, EndY - r*16+2, BOXWIDTH, BOXHEIGHT, ILI9341_YELLOW);
+	tft.drawRect(startX+c*14+2, EndY - r*14+2, BOXWIDTH, BOXHEIGHT, ILI9341_YELLOW);
 	//render texts
 	tft.setTextColor(ILI9341_WHITE);
 	for(int r = 0; r < 12; r++)
@@ -55,7 +55,7 @@ void SequencerClass::renderFull()
 		//if a sample is loaded
 		if(Drumkit.getSample(r) >=0)
 		{
-			tft.setCursor(4,EndY - r*16+2);
+			tft.setCursor(4,EndY - r*14+2);
 			tft.print(SampleName[Drumkit.getSample(r)]);
 		}
 	}

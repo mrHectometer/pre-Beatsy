@@ -1,0 +1,35 @@
+C:\Users\Roel\AppData\Local\V.Micro\Arduino\Builds\box\teensy31\Audio\analyze_peakdetect.cpp.o: \
+ C:\Users\Roel\Documents\Arduino\libraries\Audio\analyze_peakdetect.cpp \
+ C:\Users\Roel\Documents\Arduino\libraries\Audio\analyze_peakdetect.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/AudioStream.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/Arduino.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/WProgram.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/avr/pgmspace.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/avr/interrupt.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/avr_functions.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/wiring.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/binary.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/core_id.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/core_pins.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/kinetis.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/pins_arduino.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/HardwareSerial.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/Stream.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/Print.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/WString.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/Printable.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/new.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/avr_emulation.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_serial.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_desc.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_seremu.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_keyboard.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/keylayouts.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_mouse.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_joystick.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_midi.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_rawhid.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_flightsim.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/usb_undef.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/elapsedMillis.h \
+ C:\Programming\Arduino\hardware\teensy\avr\cores\teensy3/IntervalTimer.h

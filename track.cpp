@@ -105,7 +105,7 @@ int seqLength = 16;
 void track_render(ILI9341_t3* tft,volatile TrackClass *t, int currentStep)
 {
 	const int BOXWIDTH = 12;
-	const int BOXHEIGHT = 14;
+	const int BOXHEIGHT = 12;
 	const int startX = 80;
 	int EndY = tft->height()-60;
 	uint16_t colorSeqBG = tft->color565(128,140,128);
@@ -121,18 +121,18 @@ void track_render(ILI9341_t3* tft,volatile TrackClass *t, int currentStep)
 				{
 					color = &colorSeqBAR;
 				}
-				tft->drawRect(startX+c*14+2, EndY - r*16+2, BOXWIDTH, BOXHEIGHT, *color);
+				tft->drawRect(startX+c*14+2, EndY - r*14+2, BOXWIDTH, BOXHEIGHT, *color);
 			}
 			if(t->data[c][r] > 0)
 			{
 				int vel = t->data[c][r];//max 0XFF
 				int h = (255-vel) * BOXHEIGHT >> 8; 
-				tft->drawRect(startX+c*14+2, EndY - r*16+2, BOXWIDTH, BOXHEIGHT, ILI9341_CYAN);
-				tft->fillRect(startX+c*14+2, (EndY - r*16+2)+h,  BOXWIDTH, BOXHEIGHT-h, ILI9341_CYAN);
+				tft->drawRect(startX+c*14+2, EndY - r*14+2, BOXWIDTH, BOXHEIGHT, ILI9341_CYAN);
+				tft->fillRect(startX+c*14+2, (EndY - r*14+2)+h,  BOXWIDTH, BOXHEIGHT-h, ILI9341_CYAN);
 			}
 			if(c == currentStep)
 			{
-				tft->drawRect( startX+c*14+2, EndY - r*16+2,  BOXWIDTH, BOXHEIGHT, ILI9341_WHITE);
+				tft->drawRect( startX+c*14+2, EndY - r*14+2,  BOXWIDTH, BOXHEIGHT, ILI9341_WHITE);
 			}
 		}
 	}
